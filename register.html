@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Project Upcycle</title>
+		<title>ProyectUpcycle | Registro</title>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="shortcut icon" href="images/icon-eco.jpg" type="image/x-icon" />
@@ -32,38 +32,54 @@
 			</div>
 		</div>
 		<div id="content">
-			<div id="section">
-				<div>
-					<h1>Tierra Amigable!</h1>
-					<p>
-						El reciclaje trata de convertir residuos plásticos, la basura que consumimos diariamente, en nuevos productos o en materia prima para su posterior utilización, esto como una medida
-						ante el creciente derroche de este material, ya que mayoría de los plásticos que consumimos sólo satisfacen un uso, por lo que se convierten en un problema medioambiental grave.
-					</p>
-					<span> <a href="register.html">Registro</a> </span>
-				</div>
-				<div id="figure">
-					<a href="#"><img src="images/little-girl-blowing-wind-mill.jpg" alt="" /></a> <span></span>
-				</div>
-				<span class="background"></span>
-			</div>
-			<div id="featured">
-				<ul>
-					<li class="first">
-						<a href="power-earth.html"><img src="images/1683647541380.png" alt="" style="width: 275px; height: 165px" /></a> <span></span>
-						<p>Todo aquel que ha dedicado un tiempo de su vida para hacer este cambio esta llevando consigo el cambio total de nuestro planeta.</p>
-						<a class="link" href="power-earth.html">El poder del Planeta</a>
-					</li>
-					<li>
-						<a href="earth-mad.html"><img src="images/little-girl-hugging-the-globe.jpg" alt="" /></a> <span></span>
-						<p>Los benefecios de poder reciclar es que se pueden guardar nuestros recursos naturales y no gsatarlos de manera desorbitada.</p>
-						<a class="link" href="earth-mad.html">Cuidala</a>
-					</li>
-					<li>
-						<a href="osmosis-beats.html"><img src="images/NTSY56G74VHKZJYGY26LLQTXWA.jpg" alt="" style="width: 275px; height: 165px" /></a> <span></span>
-						<p>El mundo en el que vivimos es unico lleno de vida, pero el ser humano lo ha encaminado hacia un desolado futuro donde se puede vivir un devastador.</p>
-						<a class="link" href="osmosis-beats.html">La Tierra es vida</a>
-					</li>
-				</ul>
+			<div>
+				<h3>Registrate, Unete al Cambio!</h3>
+				<p></p>
+				<form action="#" id="register">
+					<div class="first">
+						<fieldset>
+							<label for="name"><strong>Nombre:</strong></label>
+							<input type="text" maxlength="55" id="name" class="inputtext" />
+							<label for="email"><strong>Email:</strong></label>
+							<input type="text" maxlength="55" id="email" class="inputtext" />
+							<label for="password"><strong>Contraseña:</strong></label>
+							<input type="text" maxlength="55" id="password" class="inputtext" />
+							<label for="confirmpass"><strong>Confirmar Contraseña:</strong></label>
+							<input type="text" maxlength="55" id="confirmpass" class="inputtext" />
+							<div>
+								<label for="newsletter">
+									<input type="checkbox" id="newsletter" />
+									<span>Sustribete a noticias</span></label
+								>
+								<label class="terms" for="terms">
+									<input type="checkbox" id="terms" />
+									<span>Aceptacion de Terminos y Condiciones</span></label
+								>
+							</div>
+						</fieldset>
+					</div>
+					<div>
+						<fieldset>
+							<label for="completename"><strong>Nombre Completo:</strong></label>
+							<input type="text" maxlength="55" id="completename" class="inputtext" />
+							<label for="address"><strong>Direccion:</strong></label>
+							<input type="text" maxlength="55" id="address" class="inputtext" />
+							<label for="billing"><strong>Datos opcionales:</strong></label>
+							<input type="text" maxlength="55" id="billing" class="inputtext" />
+							<label for="city"><strong>Ciudad:</strong></label>
+							<label class="zipcode" for="zipcode"><strong>Pais:</strong></label>
+							<input type="text" maxlength="30" id="city" />
+							<input type="text" maxlength="30" id="zipcode" class="zipcode" />
+							<div>
+								<label class="saveas" for="saveas">
+									<input type="checkbox" id="saveas" />
+									<span> Guardar direccion</span></label
+								>
+							</div>
+						</fieldset>
+					</div>
+					<td colspan="1"><a class="link" href="" id="BtnFooter">Crear Cuenta</a></td>
+				</form>
 			</div>
 		</div>
 		<div id="footer">
@@ -89,7 +105,6 @@
 						<label for="subscribe">
 							<input type="text" id="subscribe" maxlength="30" value="Correo Electronico" />
 						</label>
-
 						<a class="link" href="" id="BtnFooter">Enviar</a>
 					</form>
 					<p>Copyright &copy; 2024 ProyectUpcycle Incorporated <br /></p>
